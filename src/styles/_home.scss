@@ -1,0 +1,102 @@
+html, body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+section.hero {
+    .scroll-indicator {
+        animation: bouncing 2s ease-in-out infinite;
+    }
+}
+
+section.biography {
+    img {
+        filter: drop-shadow(0 1rem 1.5rem rgba($black, 0.5));
+    }
+}
+
+section.skills {
+    .feature {
+        .feature-icon {
+            position: relative;
+            background-color: $primary;
+            border-radius: 1rem;
+            width: 4rem;
+            height: 4rem;
+
+            i, svg {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
+
+section.projects {
+    .card.project {
+        .project-thumb {
+            width: 100%;
+            position: relative;
+            padding-top: 50%;
+            border-radius: .75rem;
+            overflow: hidden;
+            background-color: $gray-200;
+            
+            img {
+                position: absolute;
+                top: 1.5rem;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            span {
+                position: absolute;
+                top: .375rem;
+                left: .375rem;
+                width: .75rem;
+                height: .75rem;
+                border-radius: .5rem;
+                z-index: 10;
+
+                &.close-button {
+                    background: $red;
+                }
+
+                &.minimize-button {
+                    background: $yellow;
+                    left: 1.5rem;
+                }
+
+                &.maximize-button {
+                    background: $green;
+                    left: 2.625rem;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    img.footer-logo {
+        width: 6.5rem;
+        height: auto;
+    }
+}
+
+@keyframes bouncing {
+    0% {
+        transform: translateY(-50%);
+    }
+
+    50% {
+        transform: translateY(50%);
+    }
+
+    100% {
+        transform: translateY(-50%);
+    }
+}

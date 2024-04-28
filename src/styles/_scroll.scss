@@ -1,0 +1,25 @@
+.lenis.lenis-smooth {
+    scroll-behavior: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: $white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $black;
+    border: solid 3px $white;
+    border-radius: .5rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $secondary;
+}

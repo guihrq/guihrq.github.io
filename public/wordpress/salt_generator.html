@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordpress Salt Keys</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <style>
+        h1{
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>For .env</h1>
+    <pre id="env"></pre>
+    <h1>For wp-config.php</h1>
+    <pre id="wpconfig"></pre>
+
+    <script>
+        const keys = ["AUTH_KEY", "SECURE_AUTH_KEY", "LOGGED_IN_KEY", "NONCE_KEY", "AUTH_SALT", "SECURE_AUTH_SALT", "LOGGED_IN_SALT", "NONCE_SALT"];
+        const values = [];
+        const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!"#$%&()*+,-./:;<=>?@[]^_`{|}~';
+        const env = document.querySelector("pre#env");
+        const wpconfig = document.querySelector("pre#wpconfig");
+
+        for(let i = 0; i < keys.length; i++){
+            let key = "";
+            for(let i = 0; i < 64; i++){
+                key += chars.charAt(Math.floor(Math.random() * chars.length));
+            }
+            values.push(key);
+        }
+
+        for(let i = 0; i < keys.length; i++){
+            env.append(`${keys[i]}='${values[i]}'\n`);
+            wpconfig.append(`define('${keys[i]}', '${values[i]}');\n`);
+        }
+    </script>
+</body>
+</html>
