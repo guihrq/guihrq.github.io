@@ -22,16 +22,16 @@ export default function Header()
                             <Link href="https://linkedin.com/in/guihrq" target="_blank" title="LinkedIn" className="social-link">
                                 <FontAwesomeIcon icon={faLinkedin} fixedWidth size="lg" />
                             </Link>
-                            <Link href="https://github.com/rbfraphael" target="_blank" title="GitHub" className="social-link">
+                            <Link href="https://github.com/guihrq" target="_blank" title="GitHub" className="social-link">
                                 <FontAwesomeIcon icon={faGithub} fixedWidth size="lg" />
                             </Link>
-                            <Link href="https://medium.com/@rbfraphael" target="_blank" title="Medium" className="social-link">
+                            {/* <Link href="https://medium.com/@guihrq" target="_blank" title="Medium" className="social-link">
                                 <FontAwesomeIcon icon={faMedium} fixedWidth size="lg" />
-                            </Link>
-                            <Link href="https://api.whatsapp.com/send?phone=5511969286032" target="_blank" title="WhatsApp" className="social-link">
+                            </Link> */}
+                            <Link href="https://api.whatsapp.com/send?phone=5511984649959" target="_blank" title="WhatsApp" className="social-link">
                                 <FontAwesomeIcon icon={faWhatsapp} fixedWidth size="lg" />
                             </Link>
-                            <Link href="mailto:rbfraphael@gmail.com" target="_blank" title="Email" className="social-link">
+                            <Link href="mailto:gui.hrq@gmail.com" target="_blank" title="Email" className="social-link">
                                 <FontAwesomeIcon icon={faEnvelope} fixedWidth size="lg" />
                             </Link>
                             <Dropdown>
