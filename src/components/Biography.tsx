@@ -9,10 +9,10 @@ export default function Biography()
                 <div className="col-12 col-lg-5 mb-5 mb-lg-0 order-2 order-lg-0">
                     <div className="section-divider" data-aos="fade-up"></div>
                     <h2 className="display-2 fw-semibold mb-5" data-aos="fade-up">About me</h2>
-                    <p data-aos="fade-up">My name is Raphael, and I am a fullstack programmer with 7+ years of experience. Throughout my career, I have worked in digital agencies where I have developed a wide range of projects, from APIs and SaaS platforms to desktop and mobile applications. My expertise includes Laravel, Wordpress, and React, and I have extensive knowledge of DevOps, with a focus on Docker and Linux. I am passionate about continuous learning and constantly seek out new technologies to enhance my skills. My versatility, self-discipline, and ability to adapt to changes enable me to approach development challenges in an analytical and self-critical manner, always striving for excellence in my projects.</p>
+                    <p data-aos="fade-up">My name is Guilherme, and I am a junior fullstack programmer with over 4 years of experience. Throughout my career, I have worked in digital agencies where I have developed a wide variety of projects. My expertise includes Laravel and Wordpress. I am passionate about continuous learning and constantly seek out new technologies to enhance my skills. My versatility, self-discipline, and ability to adapt to changes allow me to approach development challenges in an analytical and self-critical manner, always striving for excellence in my projects.</p>
                 </div>
                 <div className="col-12 col-lg-5" data-aos="fade-up">
-                    <Image src={Photo} alt="Raphael Batista Fontão" className="img-fluid" />
+                    <Image src={Photo} alt="Guilherme Henrique Borges Silva" className="img-fluid" />
                 </div>
             </div>
         </section>

@@ -9,11 +9,11 @@ export default function Footer()
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-12 col-lg-6 text-center text-lg-start mb-5 mb-lg-0">
-                        <Image src={LogoLight} alt="RBF" className="footer-logo" />
+                        <Image src={LogoLight} alt="GUIHRQ" className="footer-logo" />
                     </div>
                     <div className="col-12 col-lg-6 text-center text-lg-end text-white">
-                        <p className="m-0">Raphael Batista Fontão</p>
-                        <p className="m-0">Fullstack Mid-Senior PHP & JavaScript Developer</p>
+                        <p className="m-0">Guilhere Henrique Borges Silva</p>
+                        <p className="m-0">Jr. Fullstack PHP & JavaScript Developer</p>
                     </div>
                 </div>
             </div>

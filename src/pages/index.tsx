@@ -13,7 +13,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Raphael Batista Fontão</title>
+                <title>Guilherme Henrique Borges Silva</title>
             </Head>
 
             <Header />

@@ -22,22 +22,22 @@ export default function Contact()
                                     </Link>
                                 </div>
                                 <div data-aos="fade-right" data-aos-delay="100" data-aos-offset="0">
-                                    <Link href="https://github.com/rbfraphael" target="_blank" className="btn btn-light btn-lg rounded-pill px-4 fw-semibold shadow">
+                                    <Link href="https://github.com/guihrq" target="_blank" className="btn btn-light btn-lg rounded-pill px-4 fw-semibold shadow">
                                         <FontAwesomeIcon icon={faGithub} fixedWidth /> GitHub
                                     </Link>
                                 </div>
-                                <div data-aos="fade-right" data-aos-delay="200" data-aos-offset="0">
-                                    <Link href="https://medium.com/@rbfraphael" target="_blank" className="btn btn-black btn-lg rounded-pill px-4 fw-semibold shadow">
+                                {/* <div data-aos="fade-right" data-aos-delay="200" data-aos-offset="0">
+                                    <Link href="https://medium.com/@guihrq" target="_blank" className="btn btn-black btn-lg rounded-pill px-4 fw-semibold shadow">
                                         <FontAwesomeIcon icon={faMedium} fixedWidth /> Medium
                                     </Link>
-                                </div>
+                                </div> */}
                                 <div data-aos="fade-right" data-aos-delay="300" data-aos-offset="0">
-                                    <Link href="https://api.whatsapp.com/send?phone=5511969286032" target="_blank" className="btn btn-success btn-lg rounded-pill px-4 fw-semibold shadow">
+                                    <Link href="https://api.whatsapp.com/send?phone=5511984649959" target="_blank" className="btn btn-success btn-lg rounded-pill px-4 fw-semibold shadow">
                                         <FontAwesomeIcon icon={faWhatsapp} fixedWidth /> WhatsApp
                                     </Link>
                                 </div>
                                 <div data-aos="fade-right" data-aos-delay="400" data-aos-offset="0">
-                                    <Link href="mailto:rbfraphael@gmail.com" target="_blank" className="btn btn-dark btn-lg rounded-pill px-4 fw-semibold shadow">
+                                    <Link href="mailto:gui.hrq@gmail.com" target="_blank" className="btn btn-dark btn-lg rounded-pill px-4 fw-semibold shadow">
                                         <FontAwesomeIcon icon={faEnvelope} fixedWidth /> Email
                                     </Link>
                                 </div>
