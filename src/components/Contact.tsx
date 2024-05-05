@@ -17,7 +17,7 @@ export default function Contact()
                         <div className="col-12">
                             <div className="d-flex flex-row flex-wrap gap-4 justify-content-around">
                                 <div data-aos="fade-right" data-aos-delay="0" data-aos-offset="0">
-                                    <Link href="https://linkedin.com/in/rbfraphael" target="_blank" className="btn btn-primary btn-lg rounded-pill px-4 fw-semibold shadow">
+                                    <Link href="https://linkedin.com/in/guihrq" target="_blank" className="btn btn-primary btn-lg rounded-pill px-4 fw-semibold shadow">
                                         <FontAwesomeIcon icon={faLinkedin} fixedWidth /> LinkedIn
                                     </Link>
                                 </div>

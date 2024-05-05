@@ -19,7 +19,7 @@ export default function Header()
                     </div>
                     <div className="col-12 col-lg-auto">
                         <div className="d-flex flex-row gap-2 justify-content-center justify-content-lg-end">
-                            <Link href="https://linkedin.com/in/rbfraphael" target="_blank" title="LinkedIn" className="social-link">
+                            <Link href="https://linkedin.com/in/guihrq" target="_blank" title="LinkedIn" className="social-link">
                                 <FontAwesomeIcon icon={faLinkedin} fixedWidth size="lg" />
                             </Link>
                             <Link href="https://github.com/rbfraphael" target="_blank" title="GitHub" className="social-link">
